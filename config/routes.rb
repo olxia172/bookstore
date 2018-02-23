@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'publishers/new'
+
+  get 'publishers/create'
+
+  get 'publishers/update'
+
+  get 'publishers/edit'
+
+  get 'publishers/destroy'
+
+  get 'publishers/index'
+
+  get 'publishers/show'
+
   get 'authors/new'
 
   get 'authors/create'
